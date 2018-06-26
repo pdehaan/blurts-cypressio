@@ -1,0 +1,24 @@
+{
+  "name": "blurts-cypressio",
+  "description": "Firefox Monitor tests using Cypress.io",
+  "version": "1.0.0",
+  "author": "Moe Zilla",
+  "bugs": {
+    "url": "https://github.com/pdehaan/blurts-cypressio/issues"
+  },
+  "devDependencies": {
+    "cypress": "3.0.1"
+  },
+  "homepage": "https://github.com/pdehaan/blurts-cypressio#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "repository": "pdehaan/blurts-cypressio",
+  "scripts": {
+    "cypress": "cypress",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "readme": "node gen-readme > README.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
